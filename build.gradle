@@ -1,0 +1,17 @@
+group 'com.deepakrohan'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.0.Final'
+    compile group: 'com.h2database', name: 'h2', version: '1.4.191'
+    compile 'javax.transaction:jta:1.1'
+
+}
