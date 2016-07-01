@@ -9,6 +9,8 @@
         <property name="dialect">org.hibernate.dialect.H2Dialect</property>
         <!-- database schema creation -->
         <property name="hbm2ddl.auto">create</property>
+        <!--The above can be set to update so that the data tables will be loaded
+        only if there is a change in the schema -->
         <!--View SQL statements-->
         <property name="show_sql">true</property>
 
